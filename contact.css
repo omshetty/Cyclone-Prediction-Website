@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-font-family: 'Fredoka', sans-serif;
-} 
+font-family: 'Fredoka', cursive;
+}
 nav{
   display: flex;
   height: 80px;
@@ -113,9 +113,40 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
 }
+
+
 body{
     background-color: #e0f8fa;
-    
+}
+
+
+h1{
+  padding-left: 34px;
+  padding-top: 34px;
+  padding-right: 34px;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.container{
+  margin: auto;
+  width: 65%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+.text-block{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
 }
 footer {
     position: fixed;
